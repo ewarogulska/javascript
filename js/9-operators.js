@@ -25,4 +25,7 @@ if ( !( ("2" === 2) && (8 < 4) ) ) {
 //to sie wyswietli w oknie przegladarki-dla uzytkownika
 
 
+//operator warunkowy
+!( 8 > 4) ? console.log('Prawda') : console.error('fałsz');
 
+console.log(console);
