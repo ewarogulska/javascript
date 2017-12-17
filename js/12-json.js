@@ -45,4 +45,9 @@ console.log(jsonOsoby.osoby[2].oczy);
 jsonOsoby.osoby.forEach(function(e) {
     console.log(e.wzrost);
 });
+//wyciagamy wzrost
 
+jsonOsoby.osoby[2].zainteresowania.forEach( function (element) {
+    console.log(element.nazwa);
+});
+//wyciagamy zaintresowania
