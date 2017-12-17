@@ -8,7 +8,6 @@ var ilosc4 = 2500;
 ilosc2 = 3000;
 
 function policzSumeKasy(iloscOsoby1, iloscOsoby2, iloscOsoby3, iloscOsoby4, wiek) {
-   
     var sumaKasy;
     sumaKasy = iloscOsoby1 + iloscOsoby2 + iloscOsoby3 + iloscOsoby4;
     
@@ -17,6 +16,6 @@ function policzSumeKasy(iloscOsoby1, iloscOsoby2, iloscOsoby3, iloscOsoby4, wiek
     return osoba;
 }
 
-var wynikObliczen = policzSumeKasy( ilosc3, ilosc2, ilosc1, ilosc4, 25 );
+var osobaZObliczeniami = policzSumeKasy( ilosc3, ilosc2, ilosc1, ilosc4, 25 );
 
-console.log( );
+console.log( osobaZObliczeniami );
