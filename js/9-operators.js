@@ -24,3 +24,5 @@ if ( !( ("2" === 2) && (8 < 4) ) ) {
 }
 //to sie wyswietli w oknie przegladarki-dla uzytkownika
 
+
+
