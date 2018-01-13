@@ -7,11 +7,12 @@ var pierwszyDiv = document.getElementById('parFirst');
 //console.log(rodzicDiva);
 
 
-var dzieciDiva = pierwszyDiv.childNodes[0]; /*jak dodamy [0] to zwroci nam tylko text, jak jest samo childNodes to zwroci wszystko*/
+var dzieciDiva = pierwszyDiv.childNodes[0]; /*jak dodamy [0] to zwroci nam tylko text, jak jest samo childNodes to zwroci wszystko; childNodes pobiera elementy jako tablice*/
 //console.log(dzieciDiva);
 
 var dzieciDiva = pierwszyDiv.children;
 //console.log(dzieciDiva);
+//children pobiera tylko elementy
 
 var dzieciDiva = pierwszyDiv.firstChild;
 //console.log(dzieciDiva);
