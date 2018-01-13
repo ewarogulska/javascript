@@ -1,6 +1,6 @@
 'use strict';
 
-var secondLink = document.getElementsByTagName('a')[1];  /*w ten sposob pobralismy drugi link*/
+var secondLink = document.getElementByTagName('a')[1];  /*w ten sposob pobralismy drugi link*/
 
 function alarm(e) {
     e.preventDefault(); 
